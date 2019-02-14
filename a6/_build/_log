@@ -1,0 +1,60 @@
+### Starting build.
+# Target: main.mli.depends, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), package(yojson), extension:mli, file:main.mli, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package unix -package oUnit -package str -package qcheck -package ANSITerminal -package yojson -modules main.mli > main.mli.depends # cached
+# Target: main.cmi, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), package(yojson), byte, compile, extension:mli, file:main.mli, interf, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package unix -package oUnit -package str -package qcheck -package ANSITerminal -package yojson -o main.cmi main.mli # cached
+# Target: main.ml.depends, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), package(yojson), extension:ml, file:main.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package unix -package oUnit -package str -package qcheck -package ANSITerminal -package yojson -modules main.ml > main.ml.depends # cached
+# Target: offlinemain.mli.depends, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), package(yojson), extension:mli, file:offlinemain.mli, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package unix -package oUnit -package str -package qcheck -package ANSITerminal -package yojson -modules offlinemain.mli > offlinemain.mli.depends # cached
+# Target: offlinemain.cmi, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), package(yojson), byte, compile, extension:mli, file:offlinemain.mli, interf, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package unix -package oUnit -package str -package qcheck -package ANSITerminal -package yojson -o offlinemain.cmi offlinemain.mli # cached
+# Target: parse.mli.depends, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), package(yojson), extension:mli, file:parse.mli, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package unix -package oUnit -package str -package qcheck -package ANSITerminal -package yojson -modules parse.mli > parse.mli.depends # cached
+# Target: deck.mli.depends, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), package(yojson), extension:mli, file:deck.mli, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package unix -package oUnit -package str -package qcheck -package ANSITerminal -package yojson -modules deck.mli > deck.mli.depends # cached
+# Target: deck.cmi, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), package(yojson), byte, compile, extension:mli, file:deck.mli, interf, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package unix -package oUnit -package str -package qcheck -package ANSITerminal -package yojson -o deck.cmi deck.mli # cached
+# Target: parse.cmi, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), package(yojson), byte, compile, extension:mli, file:parse.mli, interf, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package unix -package oUnit -package str -package qcheck -package ANSITerminal -package yojson -o parse.cmi parse.mli # cached
+# Target: servermain.mli.depends, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), package(yojson), extension:mli, file:servermain.mli, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package unix -package oUnit -package str -package qcheck -package ANSITerminal -package yojson -modules servermain.mli > servermain.mli.depends # cached
+# Target: state.mli.depends, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), package(yojson), extension:mli, file:state.mli, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package unix -package oUnit -package str -package qcheck -package ANSITerminal -package yojson -modules state.mli > state.mli.depends # cached
+# Target: state.cmi, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), package(yojson), byte, compile, extension:mli, file:state.mli, interf, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package unix -package oUnit -package str -package qcheck -package ANSITerminal -package yojson -o state.cmi state.mli # cached
+# Target: servermain.cmi, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), package(yojson), byte, compile, extension:mli, file:servermain.mli, interf, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package unix -package oUnit -package str -package qcheck -package ANSITerminal -package yojson -o servermain.cmi servermain.mli # cached
+# Target: main.cmo, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), package(yojson), byte, compile, extension:cmo, extension:ml, file:main.cmo, file:main.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package unix -package oUnit -package str -package qcheck -package ANSITerminal -package yojson -o main.cmo main.ml # cached
+# Target: offlinemain.ml.depends, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), package(yojson), extension:ml, file:offlinemain.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package unix -package oUnit -package str -package qcheck -package ANSITerminal -package yojson -modules offlinemain.ml > offlinemain.ml.depends # cached
+# Target: offlinemain.cmo, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), package(yojson), byte, compile, extension:cmo, extension:ml, file:offlinemain.cmo, file:offlinemain.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package unix -package oUnit -package str -package qcheck -package ANSITerminal -package yojson -o offlinemain.cmo offlinemain.ml # cached
+# Target: parse.ml.depends, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), package(yojson), extension:ml, file:parse.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package unix -package oUnit -package str -package qcheck -package ANSITerminal -package yojson -modules parse.ml > parse.ml.depends # cached
+# Target: parse.cmo, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), package(yojson), byte, compile, extension:cmo, extension:ml, file:parse.cmo, file:parse.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package unix -package oUnit -package str -package qcheck -package ANSITerminal -package yojson -o parse.cmo parse.ml # cached
+# Target: servermain.ml.depends, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), package(yojson), extension:ml, file:servermain.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package unix -package oUnit -package str -package qcheck -package ANSITerminal -package yojson -modules servermain.ml > servermain.ml.depends # cached
+# Target: servermain.cmo, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), package(yojson), byte, compile, extension:cmo, extension:ml, file:servermain.cmo, file:servermain.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package unix -package oUnit -package str -package qcheck -package ANSITerminal -package yojson -o servermain.cmo servermain.ml # cached
+# Target: state.ml.depends, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), package(yojson), extension:ml, file:state.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package unix -package oUnit -package str -package qcheck -package ANSITerminal -package yojson -modules state.ml > state.ml.depends # cached
+# Target: jsonparser.mli.depends, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), package(yojson), extension:mli, file:jsonparser.mli, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package unix -package oUnit -package str -package qcheck -package ANSITerminal -package yojson -modules jsonparser.mli > jsonparser.mli.depends # cached
+# Target: jsonparser.cmi, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), package(yojson), byte, compile, extension:mli, file:jsonparser.mli, interf, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package unix -package oUnit -package str -package qcheck -package ANSITerminal -package yojson -o jsonparser.cmi jsonparser.mli # cached
+# Target: state.cmo, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), package(yojson), byte, compile, extension:cmo, extension:ml, file:state.cmo, file:state.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package unix -package oUnit -package str -package qcheck -package ANSITerminal -package yojson -o state.cmo state.ml # cached
+# Target: deck.ml.depends, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), package(yojson), extension:ml, file:deck.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package unix -package oUnit -package str -package qcheck -package ANSITerminal -package yojson -modules deck.ml > deck.ml.depends # cached
+# Target: deck.cmo, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), package(yojson), byte, compile, extension:cmo, extension:ml, file:deck.cmo, file:deck.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package unix -package oUnit -package str -package qcheck -package ANSITerminal -package yojson -o deck.cmo deck.ml # cached
+# Target: jsonparser.ml.depends, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), package(yojson), extension:ml, file:jsonparser.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package unix -package oUnit -package str -package qcheck -package ANSITerminal -package yojson -modules jsonparser.ml > jsonparser.ml.depends # cached
+# Target: jsonparser.cmo, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), package(yojson), byte, compile, extension:cmo, extension:ml, file:jsonparser.cmo, file:jsonparser.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package unix -package oUnit -package str -package qcheck -package ANSITerminal -package yojson -o jsonparser.cmo jsonparser.ml # cached
+# Target: main.byte, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), package(yojson), byte, dont_link_with, extension:byte, file:main.byte, link, ocaml, program, quiet, traverse }
+ocamlfind ocamlc -linkpkg -package unix -package oUnit -package str -package qcheck -package ANSITerminal -package yojson deck.cmo parse.cmo jsonparser.cmo state.cmo offlinemain.cmo servermain.cmo main.cmo -o main.byte # cached
+# Compilation successful.

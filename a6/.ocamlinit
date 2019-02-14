@@ -1,0 +1,10 @@
+#directory "_build";;
+#require "str";;
+#require "bisect";;
+#require "qcheck";;
+#require "ANSITerminal";;
+#require "yojson";;
+#load_rec "parse.cmo";;
+#load_rec "deck.cmo";;
+#load_rec "jsonparser.cmo";;
+#load_rec "state.cmo";;
